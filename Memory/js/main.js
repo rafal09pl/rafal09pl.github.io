@@ -2,7 +2,7 @@
  * Created by rafal09pl on 29.05.17.
  */
 
-const picturesNumber = 26;
+const picturesNumber = 28;
 var totalWidth;
 var totalHeight;
 var records;

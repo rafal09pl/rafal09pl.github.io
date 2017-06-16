@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Browar Zakładowy - memory</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main_style.css" />
+
+    <script type = "text/javascript"
+            src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript"  src="js/main.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+</head>
+<body onresize="resizeGame()">
+<div id="main-container">
+    <div id="baner">
+        <a href="http://browarzakladowy.pl/"><img id="logo" src="images/logo.jpg"></a>
+        <div id="title">#memory</div>
+    </div>
+    <div id="game">
+
+        <div id="menu-container">
+            <h1>Wybierz rozmiar planszy</h1>
+            <div id="options">
+                <div class="button" id="op1">2 x 4</div>
+                <div class="button" id="op2">3 x 6</div>
+                <div class="button" id="op3">4 x 8</div>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+
+
+        <div id="grid"></div>
+        <div id="won">
+            <h1>Brawo! Udało Ci się odkryć wszystkie etykiety po <span id="wynik"></span> kliknięciach.</h1>
+            <h2><span id="regame" style="border-bottom: dashed 2px black;">Ja chcę jeszcze raz!</span></h2>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
